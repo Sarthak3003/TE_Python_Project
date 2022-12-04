@@ -1,0 +1,45 @@
+BACKEND 
+
+1. Create Login using JWT and custom user model 
+
+2. Create Class based APIs for updating members and adding new members (with serializers)
+
+3. Write a frontend python script to poppulate the old Collection (Membership ID will be "" for all fields and application ID will be incremented -- Update the ID collection to increment application number)
+
+4. write a frontend python script to poppulate the Form collection
+
+5. Integrate the OTP functions in an API View.
+
+6. class based Get requests for the following from the form collection
+    Self = True and processed=False [MBAgent Pending API]
+    new = True and verified=False [MBAdmin New API]
+    processed=True and verified=False [MBAdmin Updated API]
+    MDO=True [MDAdmin Declined API]
+    paid = False and verified=True [MDADMIN Pending Payment API]
+    paid=True and verified=True [MDAdmin All API]
+
+7. 
+
+
+
+FRONTEND 
+
+1. Integrate login API with the frontend 
+
+2. Make the form responsive 
+
+3. Look into S3 buckets 
+
+4. Admin panel features
+    a. If user is MBAgent
+        Filter (old fields)
+        Pending (a list of all with self = True and processed=False)
+        Button to fill out new form
+
+    b. If user is MBAdmin
+        Filter (all fields)
+        New applications (a list of all with new = True and verified=False)
+        Updated Applications (a list of all with processed = True and verified=False)
+        Declined Applications (a list of all with MDOBool = True)
+        PendingPayments (a list of all with paid = False)
+        All members (a list of all with paid = True and verified = True) or (a list of all with existing memberID)
