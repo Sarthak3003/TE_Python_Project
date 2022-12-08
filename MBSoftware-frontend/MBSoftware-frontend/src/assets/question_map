@@ -1,0 +1,2173 @@
+{
+
+    "1":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : false,
+        "question" : "What type of respondent?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Self Employed"
+            },
+            {
+                "id": 2,
+                "value": "Own Business"
+            },
+            {
+                "id": 3,
+                "value": "Contractual work for other business"
+            },
+            {
+                "id": 4,
+                "value": "Doesn't want to answer"
+            }        
+        ]
+    },
+
+    "2":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : false,
+        "question" : "Is your workplace a proper set-up?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Yes"
+            },
+            {
+                "id": 2,
+                "value": "No"
+            },
+            {
+                "id": 3,
+                "value": "Doesn't want to answer"
+            }        
+        ]
+    },
+
+    "3":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : false,
+        "question" : "Do you have multiple sources of income(apart from the core activity being done by you)?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Yes"
+            },
+            {
+                "id": 2,
+                "value": "No"
+            },
+            {
+                "id": 3,
+                "value": "Doesn't want to answer"
+            }        
+        ]
+    },
+
+    "4":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : false,
+        "question" : "Do you use digital payments for collecting money?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Yes"
+            },
+            {
+                "id": 2,
+                "value": "No"
+            },
+            {
+                "id": 3,
+                "value": "Doesn't want to answer"
+            }        
+        ]
+    },
+
+    "5":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : false,
+        "question" : "Select your region",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Rural"
+            },
+            {
+                "id": 2,
+                "value": "Semi-Urban"
+            },
+            {
+                "id": 3,
+                "value": "Urban"
+            }        
+        ]
+    },
+
+    "6":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : true,
+            "visible" : true,
+            "keyboard_type" : "number-pad",
+            "password": false,
+            "label" : "District code" 
+        },
+        "hasCondition" : false,
+        "question" : "Please Enter the district code",
+        "options" : "NA"
+    },
+
+    "7":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : true,
+            "visible" : true,
+            "keyboard_type" : "number-pad",
+            "password": false,
+            "label" : "Cluster code" 
+        },
+        "hasCondition" : false,
+        "question" : "Please Enter the cluster code",
+        "options" : "NA"
+    },
+
+    "8":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : true,
+            "visible" : true,
+            "keyboard_type" : "number-pad",
+            "password": false,
+            "label" : "Location code" 
+        },
+        "hasCondition" : false,
+        "question" : "Please Enter the location code",
+        "options" : "NA"
+    },
+
+    "9":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : true,
+            "visible" : true,
+            "keyboard_type" : "default",
+            "password": false,
+            "label" : "District" 
+        },
+        "hasCondition" : true,
+        "question" : "Enter your district",
+        "options" : "NA"
+    },
+
+    "10":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : true,
+            "visible" : true,
+            "keyboard_type" : "default",
+            "password": false,
+            "label" : "Tehsil" 
+        },
+        "hasCondition" : true,
+        "question" : "Enter your tehsil",
+        "options" : "NA"
+    },
+
+    "11":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : true,
+            "visible" : true,
+            "keyboard_type" : "default",
+            "password": false,
+            "label" : "Mandal" 
+        },
+        "hasCondition" : true,
+        "question" : "Enter your Mandal",
+        "options" : "NA"
+    },
+
+    "12":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : true,
+            "visible" : true,
+            "keyboard_type" : "default",
+            "password": false,
+            "label" : "Village" 
+        },
+        "hasCondition" : true,
+        "question" : "Enter your village",
+        "options" : "NA"
+    },
+
+    "13":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : true,
+            "visible" : true,
+            "keyboard_type" : "number-pad",
+            "password": false,
+            "label" : "Aadhar Number" 
+        },
+        "hasCondition" : false,
+        "question" : "Enter your aadhar number",
+        "options" : "NA"
+    },
+
+    "14":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : true,
+            "visible" : true,
+            "keyboard_type" : "number-pad",
+            "password": false,
+            "label" : "Mobile Number" 
+        },
+        "hasCondition" : false,
+        "question" : "Enter your mobile number",
+        "options" : "NA"
+    },
+
+    "15":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : false,
+            "visible" : true,
+            "keyboard_type" : "number-pad",
+            "password": false,
+            "label" : "Registration Number" 
+        },
+        "hasCondition" : false,
+        "question" : "Enter your Registration Number",
+        "options" : "NA"
+    },
+
+    "16":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : false,
+            "visible" : true,
+            "keyboard_type" : "default",
+            "password": false,
+            "label" : "UAN" 
+        },
+        "hasCondition" : false,
+        "question" : "Enter UAN",
+        "options" : "NA"
+    },
+
+    "17":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : false,
+            "visible" : true,
+            "keyboard_type" : "default",
+            "password": false,
+            "label" : "ESIC" 
+        },
+        "hasCondition" : false,
+        "question" : "Enter ESIC",
+        "options" : "NA"
+    },
+
+    "18":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : false,
+            "visible" : true,
+            "keyboard_type" : "default",
+            "password": false,
+            "label" : "Name" 
+        },
+        "hasCondition" : false,
+        "question" : "Enter Name",
+        "options" : "NA"
+    },
+
+    "19":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : false,
+            "visible" : true,
+            "keyboard_type" : "number-pad",
+            "password": false,
+            "label" : "Age" 
+        },
+        "hasCondition" : false,
+        "question" : "Enter Age",
+        "options" : "NA"
+    },
+
+    "20":{
+        "metadata" : {
+            "type" : "dropdown",
+            "mandatory":false,
+            "visible" : true,
+            "position" : "middle",
+            "label" : "Gender"
+        },
+        "hasCondition" : false,
+        "question" : "Select Gender",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Male"
+            },
+            {
+                "id": 2,
+                "value": "Female"
+            },
+            {
+                "id": 3,
+                "value": "Other"
+            }        
+        ]
+    },
+
+    "21":{
+        "metadata" : {
+            "type" : "dropdown",
+            "mandatory":false,
+            "visible" : true,
+            "position" : "middle",
+            "label" : "Community"
+        },
+        "hasCondition" : false,
+        "question" : "Select Community",
+        "options" : [
+            {
+                "id": 1,
+                "value": "FC"
+            },
+            {
+                "id": 2,
+                "value": "OBC"
+            },
+            {
+                "id": 3,
+                "value": "SC"
+            },
+            {
+                "id": 4,
+                "value": "ST"
+            }        
+        ]
+    },
+
+    "22":{
+        "metadata" : {
+            "type" : "dropdown",
+            "mandatory":false,
+            "visible" : true,
+            "position" : "bottom",
+            "label" : "Educational Qualification"
+        },
+        "hasCondition" : false,
+        "question" : "Select Educational Qualification",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Primary"
+            },
+            {
+                "id": 2,
+                "value": "Secondary"
+            },
+            {
+                "id": 3,
+                "value": "Higher Secondary"
+            },
+            {
+                "id": 4,
+                "value": "Graduate & Above"
+            }        
+        ]
+    },
+
+    "23":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Where do you work?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Service Sector"
+            },
+            {
+                "id": 2,
+                "value": "Industry"
+            },
+            {
+                "id": 3,
+                "value": "Households"
+            },
+            {
+                "id": 4,
+                "value": "Mining"
+            },
+            {
+                "id": 5,
+                "value": "Agriculture"
+            },
+            {
+                "id": 6,
+                "value": "Currently Unemployed"
+            },
+            {
+                "id": 7,
+                "value": "Doesn't want to answer"
+            }        
+        ]
+    },
+
+    "24":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Which sector do you work in?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Organized and Unorganized Retail"
+            },
+            {
+                "id": 2,
+                "value": "IT & Computers"
+            },
+            {
+                "id": 3,
+                "value": "Tourism and Hospital"
+            },
+            {
+                "id": 4,
+                "value": "Transport"
+            },
+            {
+                "id": 5,
+                "value": "Others"
+            }        
+        ]
+    },
+
+    "25":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Which of these activity do you do?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Own Shop"
+            },
+            {
+                "id": 2,
+                "value": "Shop Floor"
+            },
+            {
+                "id": 3,
+                "value": "Back Store"
+            },
+            {
+                "id": 4,
+                "value": "Merchandising"
+            },
+            {
+                "id": 5,
+                "value": "Security"
+            }        
+        ]
+    },
+
+    "26":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Which of these activity do you do?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Electronics Repair"
+            },
+            {
+                "id": 2,
+                "value": "Computer Center"
+            },
+            {
+                "id": 3,
+                "value": "Sales"
+            },
+            {
+                "id": 4,
+                "value": "Hardware Manufacturing"
+            },
+            {
+                "id": 5,
+                "value": "Hardware Networking"
+            },
+            {
+                "id": 6,
+                "value": "Software"
+            }        
+        ]
+    },
+
+    "27":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Which of these activity do you do?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Front Office and Waiter"
+            },
+            {
+                "id": 2,
+                "value": "F&B- Cooking"
+            },
+            {
+                "id": 3,
+                "value": "Housekeeping"
+            },
+            {
+                "id": 4,
+                "value": "Ticketing"
+            },
+            {
+                "id": 5,
+                "value": "Tour Guide"
+            },
+            {
+                "id": 6,
+                "value": "Sales"
+            },
+            {
+                "id": 7,
+                "value": "Security"
+            }        
+        ]
+    },
+
+    "28":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Which of these activity do you do?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Cab Driver"
+            },
+            {
+                "id": 2,
+                "value": "Rickshaw Puller"
+            },
+            {
+                "id": 3,
+                "value": "Lorry Driver"
+            },
+            {
+                "id": 4,
+                "value": "Conductor/Helper"
+            },
+            {
+                "id": 5,
+                "value": "Other Services"
+            }        
+        ]
+    },
+
+    "29":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : true,
+            "visible" : true,
+            "keyboard_type" : "default",
+            "password": false,
+            "label" : "Prime Activity" 
+        },
+        "hasCondition" : true,
+        "question" : "What is the prime activity that you do?",
+        "options" : "NA"
+    },
+
+    "30":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Which industry do you work in?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Textile and Clothing"
+            },
+            {
+                "id": 2,
+                "value": "Building and Construction"
+            },
+            {
+                "id": 3,
+                "value": "Auto and Auto Components"
+            },
+            {
+                "id": 4,
+                "value": "Gems and Jewelery"
+            },
+            {
+                "id": 5,
+                "value": "Furniture and Furnishing"
+            },
+            {
+                "id": 6,
+                "value": "Leather and Leather Goods"
+            },
+            {
+                "id": 7,
+                "value": "Banking and Finance"
+            },
+            {
+                "id": 8,
+                "value": "Others" 
+            }        
+        ]
+    },
+
+    "31":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Which of these activity do you do?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Powerloom Operator"
+            },
+            {
+                "id": 2,
+                "value": "Apparel Manufacturing"
+            },
+            {
+                "id": 3,
+                "value": "Fashion Design"
+            },
+            {
+                "id": 4,
+                "value": "Knitwear Manufacturing"
+            },
+            {
+                "id": 5,
+                "value": "Sewing Machine"
+            },
+            {
+                "id": 6,
+                "value": "Porter/Security"
+            }        
+        ]
+    },
+
+    "32":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Which of these activity do you do?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Crane Operator"
+            },
+            {
+                "id": 2,
+                "value": "Electrician"
+            },
+            {
+                "id": 3,
+                "value": "Welder"
+            },
+            {
+                "id": 4,
+                "value": "Mason"
+            },
+            {
+                "id": 5,
+                "value": "Carpenter"
+            },
+            {
+                "id": 6,
+                "value": "Plumber"
+            },
+            {
+                "id": 7,
+                "value": "Tile Worker"
+            },
+            {
+                "id": 8,
+                "value": "Porter/Security"
+            },
+            {
+                "id": 9,
+                "value": "Others"
+            }        
+        ]
+    },
+
+    "33":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Which of these activity do you do?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Driver"
+            },
+            {
+                "id": 2,
+                "value": "Auto Component"
+            },
+            {
+                "id": 3,
+                "value": "Servicing"
+            },
+            {
+                "id": 4,
+                "value": "Repair"
+            },
+            {
+                "id": 5,
+                "value": "Sales"
+            },
+            {
+                "id": 6,
+                "value": "Insurance"
+            },
+            {
+                "id": 7,
+                "value": "OEM Manufacturing"
+            },
+            {
+                "id": 8,
+                "value": "Porter/Security"
+            }
+        ]
+    },
+
+    "34":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Which of these activity do you do?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Fabrication"
+            },
+            {
+                "id": 2,
+                "value": "Polishing"
+            },
+            {
+                "id": 3,
+                "value": "Grading"
+            },
+            {
+                "id": 4,
+                "value": "Cutting"
+            },
+            {
+                "id": 5,
+                "value": "Faceting"
+            }        
+        ]
+    },
+
+    "35":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Which of these activity do you do?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Carpenter"
+            },
+            {
+                "id": 2,
+                "value": "Stitching"
+            },
+            {
+                "id": 3,
+                "value": "Sewing"
+            },
+            {
+                "id": 4,
+                "value": "Stuffing"
+            },
+            {
+                "id": 5,
+                "value": "Porter"
+            }
+        ]
+    },
+
+    "36":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Which of these activity do you do?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Tanning"
+            },
+            {
+                "id": 2,
+                "value": "Cutting"
+            },
+            {
+                "id": 3,
+                "value": "Clicking"
+            },
+            {
+                "id": 4,
+                "value": "Stitching"
+            },
+            {
+                "id": 5,
+                "value": "Washing and Drying"
+            },
+            {
+                "id": 6,
+                "value": "Lasting and Finishing"
+            }        
+        ]
+    },
+
+    "37":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Which of these activity do you do?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Direct Sales Agent"
+            },
+            {
+                "id": 2,
+                "value": "Service-NBFC and MF"
+            },
+            {
+                "id": 3,
+                "value": "Security Guard"
+            },
+            {
+                "id": 4,
+                "value": "Office Boy"
+            }
+        ]
+    },
+
+    "38":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Which of these activity do you do?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Maid"
+            },
+            {
+                "id": 2,
+                "value": "Cook"
+            },
+            {
+                "id": 3,
+                "value": "Personal Errands"
+            },
+            {
+                "id": 4,
+                "value": "Security"
+            },
+            {
+                "id": 5,
+                "value": "Nurse"
+            },
+            {
+                "id": 6,
+                "value": "Others"
+            }        
+        ]
+    },
+
+    "39":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Which of these activity do you do?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Machine Operator"
+            },
+            {
+                "id": 2,
+                "value": "Labour"
+            }  
+        ]
+    },
+
+    "40":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Which of these activity do you do?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Cultivation"
+            },
+            {
+                "id": 2,
+                "value": "Manual Labour"
+            },
+            {
+                "id": 3,
+                "value": "Livestock Rearing"
+            }        
+        ]
+    },
+
+    "41":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : true,
+            "visible" : true,
+            "keyboard_type" : "default",
+            "password": false,
+            "label" : "House Number" 
+        },
+        "hasCondition" : true,
+        "question" : "Enter House Number",
+        "options" : "NA"
+    },
+
+    "42":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : true,
+            "visible" : true,
+            "keyboard_type" : "default",
+            "password": false,
+            "label" : "Street" 
+        },
+        "hasCondition" : true,
+        "question" : "Enter Street",
+        "options" : "NA"
+    },
+
+    "43":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : true,
+            "visible" : true,
+            "keyboard_type" : "default",
+            "password": false,
+            "label" : "Landmark" 
+        },
+        "hasCondition" : true,
+        "question" : "Enter Landmark",
+        "options" : "NA"
+    },
+
+    "44":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : true,
+            "visible" : true,
+            "keyboard_type" : "default",
+            "password": false,
+            "label" : "City" 
+        },
+        "hasCondition" : true,
+        "question" : "Enter City",
+        "options" : "NA"
+    },
+
+    "45":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : true,
+            "visible" : true,
+            "keyboard_type" : "default",
+            "password": false,
+            "label" : "District" 
+        },
+        "hasCondition" : true,
+        "question" : "Enter District",
+        "options" : "NA"
+    },
+
+    "46":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : true,
+            "visible" : true,
+            "keyboard_type" : "default",
+            "password": false,
+            "label" : "State" 
+        },
+        "hasCondition" : true,
+        "question" : "Enter State",
+        "options" : "NA"
+    },
+
+    "47":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : true,
+            "visible" : true,
+            "keyboard_type" : "default",
+            "password": false,
+            "label" : "PinCode" 
+        },
+        "hasCondition" : true,
+        "question" : "Enter PinCode",
+        "options" : "NA"
+    },
+
+    "48":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Where do you work?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Industry"
+            },
+            {
+                "id": 2,
+                "value": "Service Sector"
+            },
+            {
+                "id": 3,
+                "value": "Households"
+            },
+            {
+                "id": 4,
+                "value": "Agriculture"
+            },
+            {
+                "id": 5,
+                "value": "Currently Unemployed"
+            },
+            {
+                "id": 6,
+                "value": "Doesn't want to answer"
+            }      
+        ]
+    },
+
+    "49":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Where do you work?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Service Sector"
+            },
+            {
+                "id": 2,
+                "value": "Industry"
+            },
+            {
+                "id": 3,
+                "value": "Households"
+            },
+            {
+                "id": 4,
+                "value": "Currently Unemployed"
+            },
+            {
+                "id": 5,
+                "value": "Doesn't want to answer"
+            }     
+        ]
+    },
+    
+    "50":{
+        "metadata" : {
+            "type" : "dropdown",
+            "mandatory": true,
+            "visible" : true,
+            "position" : "top",
+            "label" : "Number of years of employment"
+        },
+        "hasCondition" : true,
+        "question" : "Select Number of years of employment",
+        "options" : [
+            {
+                "id": 1,
+                "value": "< 1 year"
+            },
+            {
+                "id": 2,
+                "value": "1-3 years"
+            },
+            {
+                "id": 3,
+                "value": "3-7 years"
+            },      
+            {
+                "id" : 4,
+                "value" : "7-15 years"
+            },
+            {
+                "id" : 5,
+                "value" : "> 15 years"
+            }
+        ]
+    },
+
+    "51":{
+        "metadata" : {
+            "type" : "dropdown",
+            "mandatory": false,
+            "visible" : true,
+            "position" : "top",
+            "label" : "Number of workdays in a week"
+        },
+        "hasCondition" : true,
+        "question" : "Select Number of workdays in a week",
+        "options" : [
+            {
+                "id": 1,
+                "value": "0 days"
+            },
+            {
+                "id": 2,
+                "value": "1-3 days"
+            },
+            {
+                "id": 3,
+                "value": "3-5 days"
+            },      
+            {
+                "id" : 4,
+                "value" : "5-7 days"
+            }
+        ]
+    },
+
+    "52":{
+        "metadata" : {
+            "type" : "dropdown",
+            "mandatory": false,
+            "visible" : true,
+            "position" : "middle",
+            "label" : "Number of hours per day"
+        },
+        "hasCondition" : true,
+        "question" : "Select Number of hours per day",
+        "options" : [
+            {
+                "id": 1,
+                "value": "< 2"
+            },
+            {
+                "id": 2,
+                "value": "2-5"
+            },
+            {
+                "id": 3,
+                "value": "5-9"
+            },      
+            {
+                "id" : 4,
+                "value" : "> 9"
+            }
+        ]
+    },
+
+    "53":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Is there any accident involved in your workplace",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Yes"
+            },
+            {
+                "id": 2,
+                "value": "No"
+            },
+            {
+                "id": 3,
+                "value": "Doesn't want to answer"
+            }
+        ]
+    },
+
+    "54":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : false,
+            "visible" : false,
+            "keyboard_type" : "default",
+            "password": false,
+            "label" : "Nature of Activity" 
+        },
+        "hasCondition" : true,
+        "question" : "If Yes , comment on the nature of the activity",
+        "options" : "NA"
+    },
+
+    "55":{
+        "metadata" : {
+            "type" : "dropdown",
+            "mandatory": false,
+            "visible" : true,
+            "position" : "middle",
+            "label" : "Nature of your Employer"
+        },
+        "hasCondition" : true,
+        "question" : "Select Nature of your Employer",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Middleman/Contractor"
+            },
+            {
+                "id": 2,
+                "value": "Co-operative"
+            },
+            {
+                "id": 3,
+                "value": "Private Company"
+            },      
+            {
+                "id" : 4,
+                "value" : "Private Household"
+            }
+        ]
+    },
+    
+    "56":{
+        "metadata" : {
+            "type" : "dropdown",
+            "mandatory": false,
+            "visible" : true,
+            "position" : "middle",
+            "label" : "Wage System"
+        },
+        "hasCondition" : true,
+        "question" : "Select Wage System",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Daily"
+            },
+            {
+                "id": 2,
+                "value": "Weekly"
+            },
+            {
+                "id": 3,
+                "value": "Monthly"
+            }    
+        ]
+    },
+    
+    "57":{
+        "metadata" : {
+            "type" : "dropdown",
+            "mandatory": false,
+            "visible" : true,
+            "position" : "middle",
+            "label" : "Monthly Income"
+        },
+        "hasCondition" : true,
+        "question" : "Select Monthly Income",
+        "options" : [
+            {
+                "id": 1,
+                "value": "< 8000"
+            },
+            {
+                "id": 2,
+                "value": "8000-14000"
+            },
+            {
+                "id": 3,
+                "value": "14000 - 20000"
+            },      
+            {
+                "id" : 4,
+                "value" : "20000 - 50000"
+            },
+            {
+                "id" : 5,
+                "value" : "> 50000"
+            }
+        ]
+    },
+
+    "58":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Bonus?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Yes"
+            },
+            {
+                "id": 2,
+                "value": "No"
+            },
+            {
+                "id": 3,
+                "value": "Doesn't want to answer"
+            }
+        ]
+    },    
+
+    "59":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "PF?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Yes"
+            },
+            {
+                "id": 2,
+                "value": "No"
+            },
+            {
+                "id": 3,
+                "value": "Doesn't want to answer"
+            }
+        ]
+    },
+
+    "60":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Fringe Benefits?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Yes"
+            },
+            {
+                "id": 2,
+                "value": "No"
+            },
+            {
+                "id": 3,
+                "value": "Doesn't want to answer"
+            }
+        ]
+    },
+
+    "61":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Other Benefits?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Yes"
+            },
+            {
+                "id": 2,
+                "value": "No"
+            },
+            {
+                "id": 3,
+                "value": "Doesn't want to answer"
+            }
+        ]
+    },
+
+    "62":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : false,
+            "visible" : true,
+            "keyboard_type" : "number-pad",
+            "password": false,
+            "label" : "Total Monthly Income" 
+        },
+        "hasCondition" : false,
+        "question" : "Total Monthly Income in the Household (including income from cattle or land)",
+        "options" : "NA"
+    },
+
+    "63":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : false,
+            "visible" : true,
+            "keyboard_type" : "number-pad",
+            "password": false,
+            "label" : "Total Monthly Expense" 
+        },
+        "hasCondition" : false,
+        "question" : "Total Monthly Expenses of the Household",
+        "options" : "NA"
+    },
+
+    "64":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : false,
+            "visible" : true,
+            "keyboard_type" : "number-pad",
+            "password": false,
+            "label" : "Cash in Hand/Bank" 
+        },
+        "hasCondition" : false,
+        "question" : "Enter cumulative Savings in terms of cash in hand/bank?",
+        "options" : "NA"
+    },
+
+    "65":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : false,
+            "visible" : true,
+            "keyboard_type" : "number-pad",
+            "password": false,
+            "label" : "Jewelery" 
+        },
+        "hasCondition" : false,
+        "question" : "Enter cumulative Savings in terms Jewelery",
+        "options" : "NA"
+    },
+
+    "66":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : false,
+            "visible" : true,
+            "keyboard_type" : "number-pad",
+            "password": false,
+            "label" : "Others" 
+        },
+        "hasCondition" : false,
+        "question" : "Enter any other Savings",
+        "options" : "NA"
+    },
+
+    "67":{
+        "metadata" : {
+            "type":"multiple choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : false,
+        "question" : "Fixed Assets",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Land"
+            },
+            {
+                "id": 2,
+                "value": "House"
+            },
+            {
+                "id": 3,
+                "value": "Cattle"
+            },
+            {
+                "id": 4,
+                "value": "Doesn't want to answer"
+            }
+        ]
+    },
+
+    "68":{
+        "metadata" : {
+            "type":"multiple choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : false,
+        "question" : "Debt or Loan",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Debt to bank"
+            },
+            {
+                "id": 2,
+                "value": "Debt to Contractors"
+            },
+            {
+                "id": 3,
+                "value": "Debt to Money Lenders"
+            },
+            {
+                "id": 4,
+                "value": "Doesn't want to answer"
+            }
+        ]
+    },
+
+    "69":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : false,
+        "question" : "Where does the raw materials for your business/work come from?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Household/Own setup"
+            },
+            {
+                "id": 2,
+                "value": "Same district"
+            },
+            {
+                "id": 3,
+                "value": "Same state but other district"
+            },
+            {
+                "id": 4,
+                "value": "Outside state"
+            },
+            {
+                "id": 5,
+                "value" : "Not Applicable"
+            },
+            {
+                "id": 6,
+                "value": "Doesn't want to answer"
+            }
+        ]
+    },
+
+    "70":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : false,
+        "question" : "How many people work in your workplace (approximate)?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "< 10"
+            },
+            {
+                "id": 2,
+                "value": "> 10"
+            },
+            {
+                "id": 3,
+                "value": "Doesn't want to answer"
+            }
+        ]
+    },
+
+    "71":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : false,
+        "question" : "Does your work affect your health?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Yes"
+            },
+            {
+                "id": 2,
+                "value": "No"
+            },
+            {
+                "id": 3,
+                "value": "Doesn't want to answer"
+            }
+        ]
+    },
+
+    "72":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : false,
+        "question" : "Do you have medical facilities in your workplace?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Yes"
+            },
+            {
+                "id": 2,
+                "value": "No"
+            },
+            {
+                "id": 3,
+                "value": "Doesn't want to answer"
+            }
+        ]
+    },
+
+    "73":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : false,
+        "question" : "Is there rest room for women in your workplace?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Yes"
+            },
+            {
+                "id": 2,
+                "value": "No"
+            },
+            {
+                "id": 3,
+                "value": "Doesn't want to answer"
+            }
+        ]
+    },
+
+    "74":{
+        "metadata" : {
+            "type":"multiple choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : false,
+        "question" : "Are there any problems faced in your workplace?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Behaviour of superiors"
+            },
+            {
+                "id": 2,
+                "value": "Policies of management"
+            },
+            {
+                "id": 3,
+                "value": "Non-redressal of grievances"
+            },
+            {
+                "id": 4,
+                "value": "Others"
+            },
+            {
+                "id": 5,
+                "value": "Doesn't want to answer"
+            }
+        ]
+    },
+
+    "75":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : false,
+        "question" : "Is any government policy linked to your Aadhar card?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Yes"
+            },
+            {
+                "id": 2,
+                "value": "No"
+            },
+            {
+                "id": 3,
+                "value": "Doesn't want to answer"
+            }
+        ]
+    },
+
+    "76":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":false
+        },
+        "hasCondition" : false,
+        "question" : "Is the policy connected to Money?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Yes"
+            },
+            {
+                "id": 2,
+                "value": "No"
+            },
+            {
+                "id": 3,
+                "value": "Doesn't want to answer"
+            }
+        ]
+    },
+    
+    "77":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":false
+        },
+        "hasCondition" : false,
+        "question" : "Is the policy connected to Health?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Yes"
+            },
+            {
+                "id": 2,
+                "value": "No"
+            },
+            {
+                "id": 3,
+                "value": "Doesn't want to answer"
+            }
+        ]
+    },
+
+    "78":{
+        "metadata" : {
+            "type":"multiple choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : false,
+        "question" : "Are you availing any of the schemes by the government in the following?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Employment Generation"
+            },
+            {
+                "id": 2,
+                "value": "Household,"
+            },
+            {
+                "id": 3,
+                "value": "Health Insurance,,"
+            },
+            {
+                "id": 4,
+                "value": "Any other"
+            },
+            {
+                "id": 5,
+                "value": "Doesn't want to answer"
+            }
+        ]
+    },   
+
+    "79":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : false,
+        "question" : "Are you below poverty line?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Yes"
+            },
+            {
+                "id": 2,
+                "value": "No"
+            },
+            {
+                "id": 3,
+                "value": "Doesn't want to answer"
+            }
+        ]
+    },
+
+    "80":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : false,
+        "question" : "Health Status",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Very Poor"
+            },
+            {
+                "id": 2,
+                "value": "Poor"
+            },
+            {
+                "id": 3,
+                "value": "Average"
+            },
+            {
+                "id": 4,
+                "value": "Good"
+            },
+            {
+                "id": 5,
+                "value": "Excelent"
+            },
+            {
+                "id": 6,
+                "value": "Doesn't want to answer"
+            }
+        ]
+    },
+
+    "81":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : false,
+        "question" : "Where are you getting treated?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Government"
+            },
+            {
+                "id": 2,
+                "value": "Private"
+            },
+            {
+                "id": 3,
+                "value": "Self"
+            },
+            {
+                "id": 4,
+                "value": "Doesn't want to answer"
+            }
+        ]
+    },
+
+    "82":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : false,
+        "question" : "What is the quality of treatment?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Very Poor"
+            },
+            {
+                "id": 2,
+                "value": "Poor"
+            },
+            {
+                "id": 3,
+                "value": "Average"
+            },
+            {
+                "id": 4,
+                "value": "Good"
+            },
+            {
+                "id": 5,
+                "value": "Excelent"
+            },
+            {
+                "id": 6,
+                "value": "Doesn't want to answer"
+            }
+        ]
+    },
+
+    "83":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Have you migrated back in the last 6 months?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Yes"
+            },
+            {
+                "id": 2,
+                "value": "No"
+            },
+            {
+                "id": 3,
+                "value": "Doesn't want to answer"
+            }
+        ]
+    },
+
+    "84":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : true,
+            "visible" : true,
+            "keyboard_type" : "default",
+            "password": false,
+            "label" : "Migrated from" 
+        },
+        "hasCondition" : true,
+        "question" : "Where did you migrate from?",
+        "options" : "NA"
+    },
+
+    "85":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Type of migration",
+        "options" : [
+            {
+                "id": 1,
+                "value": "As Individual"
+            },
+            {
+                "id": 2,
+                "value": "With family members"
+            },
+            {
+                "id": 3,
+                "value": "Doesn't want to answer"
+            }
+        ]
+    },
+
+    "86":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Employment status before migration",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Employed"
+            },
+            {
+                "id": 2,
+                "value": "Unemployed"
+            },
+            {
+                "id": 3,
+                "value": "Doesn't want to answer"
+            }
+        ]
+    },
+
+    "87":{
+        "metadata" : {
+            "type" : "text box",
+            "mandatory" : true,
+            "visible" : true,
+            "keyboard_type" : "default",
+            "password": false,
+            "label" : "Place of Origin" 
+        },
+        "hasCondition" : false,
+        "question" : "Enter Place of Origin",
+        "options" : "NA"
+    },
+
+    "88":{
+        "metadata" : {
+            "type":"single choice",
+            "mandatory":true,
+            "visible":true
+        },
+        "hasCondition" : true,
+        "question" : "Have you migrated to your current place in the last 6 months?",
+        "options" : [
+            {
+                "id": 1,
+                "value": "Yes"
+            },
+            {
+                "id": 2,
+                "value": "No"
+            },
+            {
+                "id": 3,
+                "value": "Doesn't want to answer"
+            }
+        ]
+    },
+
+    "89":{
+        "metadata" : {
+            "type":"Location Page",
+            "mandatory":"NA",
+            "visible":true
+        },
+        "hasCondition" : false,
+        "question" : "Auto Location Selected?",
+        "options" : "NA"
+    },
+
+    "90":{
+        "metadata" : {
+            "type":"Location Page",
+            "mandatory":"NA",
+            "visible":false
+        },
+        "hasCondition" : false,
+        "question" : "Latitude",
+        "options" : "NA"
+    },
+
+    "91":{
+        "metadata" : {
+            "type":"Location Page",
+            "mandatory":"NA",
+            "visible":false
+        },
+        "hasCondition" : false,
+        "question" : "Longitude",
+        "options" : "NA"
+    }
+}
